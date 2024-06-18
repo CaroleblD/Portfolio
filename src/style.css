@@ -27,7 +27,11 @@ body {
 
   .table-head p {
     line-height: 1.5;
-}
+  }
+
+  .table-head .third-column {
+    text-align: right;
+  }
 
 .round {
     width: 175px;
@@ -103,6 +107,10 @@ a:hover {
 
 
 /* --------------------- Кнопки_Иконки --------------------- */
+
+.subtitle {
+  text-align: center;
+}
 
 .table-info {
     width: 100%;
