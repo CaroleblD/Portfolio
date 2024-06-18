@@ -33,6 +33,10 @@ body {
     text-align: right;
   }
 
+  .table-head .first-column {
+    width: 210px
+  }
+
 .round {
     width: 175px;
     height: 175px;
