@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding-top: 20px;
+    width: 848px;
+    margin: 0 auto;
+    font-family: "Inter";
+    word-spacing: 0.7px;
+}
+
+/* --------------------- Личная_Инфа --------------------- */
+
+.table-head {
+    width: 100%;
+  }
+
+  .table-head h3 {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 6px;
+  }
+
+  .table-head p {
+    line-height: 1.5;
+  }
+
+  .table-head .third-column {
+    text-align: right;
+  }
+
+  .table-head .first-column {
+    width: 210px
+  }
+
+.round {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+/* --------------------- Таблица_Хобби --------------------- */
+
+.line {
+    border-bottom: 2px solid gray;
+    opacity: 0.3;
+    margin-top: 25px;
+}
+
+.text {
+    margin-top: 25px;
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+.table-hobby {
+    width: 100%;
+    border: 1px solid #5A9645;
+    border-spacing: 0;
+    border-radius: 6px;
+    margin-top: 45px;
+    margin-bottom: 73px;
+  }
+
+  .table-hobby td,
+  .table-hobby th {
+    border-left: 1px solid #5A9645;
+    border-top: 1px solid #5A9645;
+  }
+
+  .table-hobby th {
+    border-top: none;
+    color:#5A9645;
+    padding: 6px 0px;
+  }
+
+  .table-hobby td:first-child,
+  .table-hobby th:first-child {
+    border-left: none;
+  }
+
+  ul {
+    margin: 20px 0px 25px 160px;
+  }
+
+
+  ol {
+    margin: 20px 0px 30px 185px;
+}
+
+li:hover {
+    color: #5A9645;
+}
+
+a {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5A9645;
+}
+
+
+/* --------------------- Кнопки_Иконки --------------------- */
+
+.subtitle {
+  text-align: center;
+}
+
+.table-info {
+    width: 100%;
+    margin-top: 63px;
+    margin-bottom: 16px;
+    border-collapse: collapse;
+    font-size: 15px;
+    letter-spacing: 1px;
+    }
+
+  .table-info td {
+    background-color: #5A9645;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
+.button-list {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 30px;
+}
+
+.button-with-image {
+    width: 130px;
+    height: 95px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+    transition: transform 0.4s, box-shadow 0.3s;
+  }
+
+  .button-with-image .image-1 {
+    max-width: 50%;
+    margin-bottom: 12px;
+  }
+
+  .button-with-image .image-2 {
+    max-width: 30%;
+    margin-bottom: 20px;
+  }
+
+  .button-with-image .image-3 {
+    max-width: 40%;
+    margin-bottom: 15px;
+  }
+
+  .button-with-image .image-4 {
+    max-width: 40%;
+    margin-bottom: 10px;
+  }
+
+    .button-with-image .image-5 {
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+
+    .button-with-image:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 2px 15px 0px #5A9645;
+}
+
+/* --------------------- Обратная_Связь --------------------- */
+
+.input-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+
+.input-name,
+.input-number,
+.input-question {
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px 10px;
+    border: 2px solid #b8b8b8;
+    font-size: 16px;
+    font-family:"Inter";
+}
+
+.input-question {
+    height: 115px;
+    resize: none;
+    margin-top: 15px;
+}
+
+::placeholder {
+    color: #c0c0c0;
+}
+
+:focus {
+    outline: none;
+    border-color: #5A9645;
+}
+
+.button-send {
+    width: 130px;
+    height: 40px;
+    display: block;
+    margin: 10px auto 0;
+    font-size: 16px;
+    color: white;
+    background-color: #5A9645;
+    border-radius: 6px;
+    border: 2px solid #5A9645;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    }
+
+    .button-send:hover {
+    background-color: #4e8640;
+}
+
+@font-face {
+    font-family: "Inter";  
+    src: url("assets/font/Inter-VariableFont_slnt\,wght.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
